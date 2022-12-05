@@ -1,1 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Holiday Calendar 📆</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet"
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="index.css" />
+
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <div class="card">
+        <div class="calendar-toolbar">
+            <button type="button" title="Previous Month" class="btn prev-month"><span
+                    class="fas fa-chevron-left"></span></button>
+            <div class="current-month"></div>
+            <button type="button" title="Next Month" class="btn next-month"><span
+                    class="fas fa-chevron-right"></span></button>
+        </div>
+
+        <div class="calendar border-top">
+            <div class="weekdays">
+                
+                <div class="weekday-name">Su</div>
+                <div class="weekday-name">Mo</div>
+                <div class="weekday-name">Tu</div>
+                <div class="weekday-name">We</div>
+                <div class="weekday-name">Th</div>
+                <div class="weekday-name ">Fr</div>
+                <div class="weekday-name friday">Sa</div>
+            </div>
+            <div class="calendar-days"></div>
+        </div>
+
+        <div class="goto-buttons border-top">
+            <button type="button" class="btn prev-year">Prev Year</button>
+            <button type="button" class="btn today">Today</button>
+            <button type="button" class="btn next-year">Next Year</button>
+        </div>
+
+        <!-- <div class="holiday-block border-top">
+				<div class="holiday">Friday</div> 
+			</div> -->
+    </div>
+</body>
+
+</html>
