@@ -28,7 +28,7 @@ body {
 .month {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(41, 240, 41);
+    background-color:rgb(168, 182, 168)
     width: 100%;
     text-align: center;
     padding: 40px 30px;
@@ -38,7 +38,7 @@ body {
 }
 
 .weekend {
-    background-color: rgb(36, 209, 36);
+    background-color: rgb(168, 182, 168);
     display: flex;
     color: white;
     padding: 7px 0;
@@ -65,13 +65,13 @@ body {
 }
 
 .today {
-    background-color: rgb(41, 240, 41);
+    background-color: rgb(168, 182, 168);
     color: white;
 
 }
 
 .days div:hover {
-    background-color: rgb(41, 240, 41);
+    background-color: rgb(168, 182, 168);
     color: white;
     cursor: pointer;
 
