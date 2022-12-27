@@ -79,6 +79,8 @@ body {
 
 .prev_date {
     color: rgb(218, 56, 56);
+/*     display: blur; */
+     filter: blur(1px);
 }
 
 #month {
