@@ -8,12 +8,12 @@ var day=dt.getDay();
 var endDate=new Date(
     dt.getFullYear(),dt.getMonth()+1,0
     ).getDate();
-     console.log(endDate);
+//      console.log(endDate);
 
 var prevDate=new Date(
     dt.getFullYear(),dt.getMonth(),0
     ).getDate();
-    console.log(prevDate);
+//     console.log(prevDate);
 
 var today=new Date();
 
@@ -25,10 +25,11 @@ for(x=day;x>0;x--){
     cells += "<div class='pre_date'>" + (prevDate - x + 1) + "</div>"
     
     }
-    // console.log(cells);
+    console.log(cells);
         for(i=1;i<=endDate;i++){
     if(i==today.getDate() && dt.getMonth()==today.getMonth()){
         cells+="<div class='today'>"+i+"</div>";
+       console.log(i);
     }
     else{
         cells+="<div>"+i+"</div>";
