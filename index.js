@@ -2,13 +2,13 @@ var dt=new Date();
 function renderDate(){
    
 dt.setDate(1);
-   console.log(dt.setDate(1));
+//    console.log(dt.setDate(1));
 var day=dt.getDay();
-// console.log(dt.getDate());
+ console.log(dt.getDate());
 var endDate=new Date(
     dt.getFullYear(),dt.getMonth()+1,0
     ).getDate();
-    // console.log(endDate);
+     console.log(endDate);
 
 var prevDate=new Date(
     dt.getFullYear(),dt.getMonth(),0
