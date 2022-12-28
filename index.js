@@ -48,6 +48,6 @@ function moveDate(para){
         dt.setMonth(dt.getMonth()+1);
     }
     renderDate();
-   console.log(para);
+   
 
 }
