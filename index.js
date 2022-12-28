@@ -2,6 +2,7 @@ var dt=new Date();
 function renderDate(){
    
 dt.setDate(1);
+   console.log(dt.setDate(1));
 var day=dt.getDay();
 // console.log(dt.getDate());
 var endDate=new Date(
