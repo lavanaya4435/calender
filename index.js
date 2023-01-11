@@ -5,11 +5,13 @@ dt.setDate(1);
 //    console.log(dt.setDate(1));
 var day=dt.getDay();
  console.log(dt.getDate());
+//    How many dates in current month ->
 var endDate=new Date(
     dt.getFullYear(),dt.getMonth()+1,0
     ).getDate();
 //      console.log(endDate);
 
+//    How many dates in prevmonth ->
 var prevDate=new Date(
     dt.getFullYear(),dt.getMonth(),0
     ).getDate();
@@ -25,7 +27,7 @@ for(x=day;x>0;x--){
     cells += "<div class='pre_date'>" + (prevDate - x + 1) + "</div>"
     
     }
-    console.log(cells);
+//     console.log(cells);
         for(i=1;i<=endDate;i++){
     if(i==today.getDate() && dt.getMonth()==today.getMonth()){
         cells+="<div class='today'>"+i+"</div>";
